@@ -33,9 +33,15 @@ By Homer Quan, Ayan Das, Garv Sehgal, Daniel Chen
 
 ## How to run
 
+* How to run:
+
 1. set openai api key in your enviroment: 
 `export OPENAI_API_KEY= xxxxxxx`
-2. start model using combined_servic, either use web service: `/web.js` or use `cli.js`
+2. install node dependences on all four folders in cli_run_model folder 
+`npm i .`
+3. start model web service: `cd cli_run_model/combined_service; node web.js`
+4. start ui web service: `cd cli_run_model/ui; php -S 0.0.0.0:8000`
+5. Open "http://local:8000" on you browser
 
 <img width="800" alt="Demo" src="https://github.com/homerlab/ivyhack-risk-advisor/assets/113078548/a0336879-5275-4f33-8207-774c5fbdf3d0">
 
